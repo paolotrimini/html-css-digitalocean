@@ -30,7 +30,6 @@
 /* REGOLE GENERALI */
 
 
-
 body {
     /*debug*/
     background-color: yellowgreen;
@@ -46,6 +45,7 @@ body {
 
 .row {
     /*debug*/
+    text-align: center;
     background-color: forestgreen;
 }
 
