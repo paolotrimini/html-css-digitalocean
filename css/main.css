@@ -1,4 +1,13 @@
-/* REGOLE GENERALI */
+/* DEBUG */
+
+[class*="col-"] {
+    min-height:50px;
+    background-color: red;
+    border: 1px solid #000;
+}
+
+
+/* inizio struttura esterna layout */
 
 * {
     margin: 0;
@@ -6,7 +15,95 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    /*debug*/
+   /* background-color: orange;*/
+}
+
+/* fine struttura esterna layout */
+
+
+
+/* REGOLE GENERALI */
+
+
+
 body {
     /*debug*/
-    background-color: darkorange;
+    background-color: yellowgreen;
+}
+
+.contenitore {
+    width: 80%;
+    margin: 0 auto;
+    /*debug*/
+    /* in base alla largh. del blocco vario la % della width */
+    /*background-color: hotpink;*/
+}
+
+.row {
+    /*debug*/
+    background-color: forestgreen;
+}
+
+/* inizio HEADER */
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /*debug*/
+    /*background-color: #F5FFFA;*/
+}
+
+
+/* fine HEADER */
+
+/* MAIN */
+
+main {
+    margin-top: 100px;
+    /*debug*/
+    /*background-color: darkviolet;*/
+}
+
+
+
+
+
+/* MEDIA QUERY */
+
+/* Extra small devices Phones */
+
+@media all and (max-width: 767px) {
+
+    }
+
+
+/* Small devices Tablets  */
+
+
+@media all and (min-width: 768px) {
+
+        }
+
+
+/* Medium devices Desktops */
+
+@media all and (min-width: 992px) {
+
+}
+
+
+/* Large devices Desktops */
+
+@media all and (min-width:1200px) {
+
 }
