@@ -31,6 +31,7 @@
 
 
 body {
+    font-family: 'Inter', sans-serif;
     /*debug*/
     background-color: yellowgreen;
 }
@@ -45,7 +46,7 @@ body {
 
 .row {
     /*debug*/
-    text-align: center;
+    /*text-align: center;*/
     background-color: forestgreen;
 }
 
@@ -64,15 +65,40 @@ header {
 }
 
 
-/* fine HEADER */
+/* fine header */
 
-/* MAIN */
+/* regole main */
 
 main {
     margin-top: 100px;
     /*debug*/
     /*background-color: darkviolet;*/
 }
+
+
+/* FOOTER */
+
+.logo-footer {
+    padding: 30px 0 10px 0;
+}
+footer .copy {
+    text-align: left;
+    font-size: calc(9px + 0.2vw);
+}
+
+.copy span {
+    color: darkgray;
+    font-size: 14px;
+    /*font-size: calc(12px + 0.2vw);*/
+}
+
+.social-icons i{
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+
+
 
 
 
