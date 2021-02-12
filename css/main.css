@@ -1,7 +1,7 @@
 /* DEBUG */
 
 [class*="col-"] {
-    /*min-height:50px;
+   /* min-height:50px;
     background-color: darkorange;
     border: 1px solid #000;*/
 }
@@ -99,6 +99,20 @@ main {
     text-align: center;
     padding-bottom: 50px;
 }
+
+
+/* CUSTOMERS */
+
+#box-customers {
+    background-color: #0154ff;
+    padding: 40px 0;
+}
+
+.title-customers h2 {
+    text-align: center;
+    color: white;
+}
+
 
 /* DEVELOPERS */
 /* centralizzare con box-teams */
