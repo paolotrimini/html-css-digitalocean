@@ -75,6 +75,22 @@ main {
     /*background-color: darkviolet;*/
 }
 
+/* PARTNERS */
+
+#box-partners {
+    background-color: #f3f5f9;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title-partners h6 {
+    text-transform: uppercase;
+}
+
+
+
+
+
 
 /* FEATURES */
 
