@@ -1,9 +1,9 @@
 /* DEBUG */
 
 [class*="col-"] {
-    min-height:50px;
-    /*background-color: darkorange;*/
-    /*border: 1px solid #000;*/
+    /*min-height:50px;
+    background-color: darkorange;
+    border: 1px solid #000;*/
 }
 
 
@@ -75,6 +75,85 @@ main {
     /*background-color: darkviolet;*/
 }
 
+/* TEAMS */
+
+#box-teams {
+    background-color: #f3f5f9;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.title-teams {
+    padding: 40px 0;
+}
+
+
+.freccia-sx, .freccia-dx {
+    font-size: 22px;
+    line-height: 300px;
+}
+
+.freccia-sx {
+    text-align: right;
+    color: darkgray;
+}
+
+.freccia-dx {
+    text-align: left;
+}
+
+.text-bottom {
+    color: #0154ff;
+    padding-top: 15px;
+}
+
+.box-carousel {
+    background-color: white;
+    padding: 30px 20px;
+}
+
+.box-rocker {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.box-circle {
+    padding: 20px 0;
+}
+.box-circle i {
+    color: #0154ff;
+    padding-right: 3px;
+}
+
+
+
+
+/* GET STARTED */
+
+#box-getstarted {
+    background-color: #0154ff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.title-getstarted {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.btn-account button {
+    color: #0154ff;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-account button:hover {
+    /*debug*/
+}
+
+
 
 /* FOOTER */
 
@@ -138,6 +217,13 @@ footer .copy {
 /* Extra small devices Phones */
 
 @media all and (max-width: 767px) {
+
+    .freccia-dx {
+        display: none;
+    }
+    .freccia-sx {
+        display: none;
+    }
 
     }
 
