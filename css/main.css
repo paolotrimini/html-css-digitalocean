@@ -1,7 +1,7 @@
 /* DEBUG */
 
 [class*="col-"] {
-   /* min-height:50px;
+    /*min-height:50px;
     background-color: darkorange;
     border: 1px solid #000;*/
 }
@@ -50,7 +50,7 @@ body {
     /*background-color: forestgreen;*/
 }
 
-/* inizio HEADER */
+/* HEADER */
 
 header {
     height: 100px;
@@ -65,9 +65,9 @@ header {
 }
 
 
-/* fine header */
 
-/* regole main */
+
+/* MAIN */
 
 main {
     margin-top: 100px;
@@ -101,7 +101,7 @@ main {
 }
 
 
-/* CUSTOMERS */
+/* TABELLA CUSTOMERS */
 
 #box-customers {
     background-color: #0154ff;
@@ -112,6 +112,50 @@ main {
     text-align: center;
     color: white;
 }
+
+.box-tabella {
+    padding: 30px 0;
+}
+
+.box-tabella .box-text {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.box-tabella .box-text p {
+    color: white;
+    font-size: 11px;
+    line-height: 100%;
+    margin-top: 5px;
+}
+
+.box-tabella .box-text a {
+    font-size: 11px;
+    line-height: 150%;
+    margin-top: 5px;
+}
+
+.box-text {
+    padding-right: 10px;
+}
+
+.box-text:last-child {
+    border-bottom: unset;
+}
+
+.left, .center, .right {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.box-text .right {
+    float: right;
+}
+
+.right a {
+    color: lightseagreen;
+}
+
 
 
 /* DEVELOPERS */
