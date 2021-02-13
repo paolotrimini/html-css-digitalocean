@@ -15,18 +15,15 @@
     <!--intestazione della pagina-->
 
     <header>
-        <section>
+        <section id="nav-bar">
             <div class="container">
                 <div class="contenitore">
                     <div class="row">
-                        <div class="col-xs-4 col-md-6 col-lg-4">
-                            logo
+                        <div class="col-xs-12 col-sm-4">
+                            LOGO - DIGITAL OCEAN
                         </div>
-                        <div class="col-xs-4 col-md-6 col-lg-4">
-                            menu prodotti
-                        </div>
-                        <div class="col-xs-4 col-md-6 col-lg-4">
-                            menu login
+                        <div class="col-xs-12 col-sm-8">
+                            MENU BAR
                         </div>
                     </div>
                 </div>
@@ -37,8 +34,11 @@
 
     <!--corpo della pagina-->
 
+
+            <!--JUMBOTRON-->
+
     <main>
-        <section>
+        <section id="jumbo">
             <div class="container">
                 <div class="contenitore">
                     <div class="row">
@@ -67,34 +67,34 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-6 col-sm-2">
-                            <figure class="box-loghi">
+                            <div class="box-loghi">
                                 <img src="img/docker.svg" alt="logo 1">
-                            </figure>
+                            </div>
                         </div>
                         <div class="col-xs-6 col-sm-2">
-                            <figure class="box-loghi">
+                            <div class="box-loghi">
                                 <img src="img/gitlab.svg" alt="logo 1">
-                            </figure>
+                            </div>
                         </div>
                         <div class="col-xs-6 col-sm-2">
-                            <figure class="box-loghi">
+                            <div class="box-loghi">
                                 <img src="img/slack.svg" alt="logo 1">
-                            </figure>
+                            </div>
                         </div>
                         <div class="col-xs-6 col-sm-2">
-                            <figure class="box-loghi">
+                            <div class="box-loghi">
                                 <img src="img/hashicorp.svg" alt="logo 1">
-                            </figure>
+                            </div>
                         </div>
                         <div class="col-xs-6 col-sm-2">
-                            <figure class="box-loghi">
-                                <img src="img/hashicorp.svg" alt="logo 1">
-                            </figure>
+                            <div class="box-loghi">
+                                <img src="img/wework.svg" alt="logo 1">
+                            </div>
                         </div>
                         <div class="col-xs-6 col-sm-2">
-                            <figure class="box-loghi">
+                            <div class="box-loghi">
                                 <img src="img/splunklogo.svg" alt="logo 1">
-                            </figure>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -109,34 +109,100 @@
         </section>
 
                     <!--deploy and scale seamlessly-->
-        <section>
+
+        <section id="box-deploy">
             <div class="container">
                 <div class="contenitore">
                     <div class="row">
                         <div class="col-xs-12">
-                            DEPLOY AND SCALE...
+                            <div class="title-deploy">
+                                <h2>Deploy and scale seamlessly</h2>
+                                <p>
+                                    Our optimized configuration process
+                                    saves your team time when running and
+                                    scaling distributed applications, AI
+                                    & machine learning workloads, hosted
+                                    services, client websites, or CI/CD environments.
+                                </p>
+                            </div>
                         </div>
                     </div>
+
                     <!--row lista sx + 4 paragrafi-->
+
                     <div class="row">
-                        <div class="col-xs-12 col-sm-6">
-                            Lista laterale sx
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="box-list">
+                                <ul>
+                                    <li><a href="#">Deploy</a></li>
+                                    <li><a href="#">Manage</a></li>
+                                    <li><a href="#">Secure</a></li>
+                                    <li><a href="#">Scale</a></li>
+                                    <li><a href="#">Monitor</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6">
+                        <div class="col-xs-12 col-sm-8">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6">
-                                    (par 1) cluster...
+                                    <div class="blocco-deploy">
+                                        <div>
+                                            <img src="img/cluster-deploy.svg" alt="img 1">
+                                        </div>
+                                        <div class="text-deploy">
+                                            <h5>Cluster deployments</h5>
+                                            <p>
+                                                Provision multiple Droplets (virtual machines) in
+                                                seconds with our control panel, CLI, or directly against
+                                                our API.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6">
-                                    (par 2) optimized..
+                                    <div class="blocco-deploy">
+                                        <div>
+                                            <img src="img/optimized-compute.svg" alt="img 2">
+                                        </div>
+                                        <div class="text-deploy">
+                                            <h5>Optimized compute types</h5>
+                                            <p>
+                                                Leave complex pricing structures behind.
+                                                Always know what you'll pay per month
+                                                with a flat, industry-leading pricing structure.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6">
-                                    (par 3) one click...
+                                    <div class="blocco-deploy">
+                                        <div>
+                                            <img src="img/one-click.svg" alt="img 3">
+                                        </div>
+                                        <div class="text-deploy">
+                                            <h5>One-click apps</h5>
+                                            <p>
+                                                Leave complex pricing structures behind.
+                                                Always know what you'll pay per month
+                                                with a flat, industry-leading pricing structure.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6">
-                                    (par 4) global...
+                                    <div class="blocco-deploy">
+                                        <div>
+                                            <img src="img/global.svg" alt="img 4">
+                                        </div>
+                                        <div class="text-deploy">
+                                            <h5>Global availability</h5>
+                                            <p>
+                                                Deploy to any of our data center regions around the world.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +218,7 @@
                 <div class="contenitore">
                     <div class="row">
                         <div class="col-xs-12">
-                            <div class="title-teams">
+                            <div class="text-developers">
                                 <h2>Designed for developers</h2>
                                 <p>
                                     Build more and spend less time
@@ -210,44 +276,50 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-4">
-                            <div>
-                                <img src="img/pred-pricing.svg" alt="foglio">
-                            </div>
-                            <div class="text-features">
-                                <h5>Predictable pricing</h5>
-                                <p>
-                                    Leave complex pricing structures behind.
-                                    Always know what you'll pay per month
-                                    with a flat, industry-leading pricing structure.
-                                </p>
-                                <a href="#">Support ></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4">
-                            <div>
-                                <img src="img/world-class.svg" alt="cuffie">
-                            </div>
-                            <div class="text-features">
-                                <h5>World-class service</h5>
-                                <p>
-                                    Free round-the-clock technical support
-                                    for all customers. You'll feel the love.
-                                </p>
-                                <a href="#">Support ></a>
+                            <div class="blocco-features">
+                                <div>
+                                    <img src="img/pred-pricing.svg" alt="foglio">
+                                </div>
+                                <div class="text-features">
+                                    <h5>Predictable pricing</h5>
+                                    <p>
+                                        Leave complex pricing structures behind.
+                                        Always know what you'll pay per month
+                                        with a flat, industry-leading pricing structure.
+                                    </p>
+                                    <a href="#">Support ></a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-4">
-                            <div>
-                                <img src="img/reliable-platform.svg" alt="scudo">
+                            <div class="blocco-features">
+                                <div>
+                                    <img src="img/world-class.svg" alt="cuffie">
+                                </div>
+                                <div class="text-features">
+                                    <h5>World-class service</h5>
+                                    <p>
+                                        Free round-the-clock technical support
+                                        for all customers. You'll feel the love.
+                                    </p>
+                                    <a href="#">Support ></a>
+                                </div>
                             </div>
-                            <div class="text-features">
-                                <h5>Reliable platform</h5>
-                                <p>
-                                    More than 100,000 developer teams worldwide
-                                    trust DigitalOcean to support their business
-                                    with a 99.99% uptime SLA for all services.
-                                </p>
-                                <a href="#">Support ></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="blocco-features">
+                                <div>
+                                    <img src="img/reliable-platform.svg" alt="scudo">
+                                </div>
+                                <div class="text-features">
+                                    <h5>Reliable platform</h5>
+                                    <p>
+                                        More than 100,000 developer teams worldwide
+                                        trust DigitalOcean to support their business
+                                        with a 99.99% uptime SLA for all services.
+                                    </p>
+                                    <a href="#">Support ></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -255,7 +327,7 @@
             </div>
         </section>
 
-                    <!--"tabella"-->
+                    <!--TABELLA-->
 
         <section id="box-customers">
             <div class="container">
@@ -438,7 +510,7 @@
             </div>
         </section>
 
-                <!--sezione teams-->
+                <!--TEAMS-->
 
         <section id="box-teams">
             <div class="container">
@@ -458,9 +530,9 @@
                         </div>
                         <div class="col-xs-12 col-sm-6">
                             <div class="box-carousel">
-                                <figure class="box-rocker">
+                                <div class="box-rocker">
                                     <img src="img/rockerbox-logo.webp" alt="logo rockerbox">
-                                </figure>
+                                </div>
                                 <div class="text-top">
                                     <p>
                                         "We have been able to make scaling the
@@ -470,7 +542,7 @@
                                 </div>
                                 <div class="text-middle">
                                     <p>
-                                        <strong>Rick O’Toole </strong><br>Co-founder and CTO
+                                        <span>Rick O’Toole </span><br>Co-founder and CTO
                                     </p>
                                 </div>
                                 <div class="text-bottom">
@@ -497,7 +569,7 @@
             </div>
         </section>
 
-                <!--sezione get started-->
+                <!--GET STARTED-->
 
         <section id="box-getstarted">
             <div class="container">
@@ -519,10 +591,10 @@
 
     </main>
 
-    <!--piè di pagina-->
+                 <!--FOOTER-->
 
     <footer>
-        <section class="footer-section">
+        <section id="box-footer">
             <div class="container">
                 <div class="contenitore">
                     <div class="row">
