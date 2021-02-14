@@ -1,7 +1,7 @@
 /* DEBUG */
 
 [class*="col-"] {
-  /*  min-height:50px;
+    /*min-height:50px;
     background-color: darkorange;
     border: 1px solid #000;*/
 }
@@ -86,8 +86,90 @@ main {
     background-size: cover;
     /*debug*/
     /*background-color: #fff2ee;*/
+}
+
+.text-jumbo {
+    padding-top: 30px;
+}
+
+.text-jumbo h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.text-jumbo p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* inizio form */
+
+#box-form {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+.title-form {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.title-form h4:nth-child(2) {
+    color: #0154ff;
+}
+
+form {
+    margin: 0 20px;
+}
+
+.btn-account .btn {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    width: 100%;
 
 }
+
+
+.btn-signup {
+    width: 100%;
+    margin: 5px 0;
+    padding: 9px 0;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 2px darkgrey;
+}
+
+.btn-signup img {
+    height: 20px;
+    float:left;
+    margin-left: 20px;
+}
+
+
+.btn-signup a {
+    text-decoration: none;
+    margin-right: 11%;
+    color: #5B6987;
+    font-weight: bold;
+}
+
+
+
+form div:last-child {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+
+
+
+
+/* fine form */
+
+
+
 
 
 /* PARTNERS */
@@ -221,10 +303,17 @@ main {
 }
 
 .box-tabella .box-text p {
-    color: white;
     font-size: 11px;
     line-height: 100%;
     margin-top: 5px;
+}
+
+.box-text div:first-child {
+    color: white;
+}
+
+.box-text div:nth-child(2) {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .box-tabella .box-text a {
@@ -253,7 +342,6 @@ main {
 .right a {
     color: lightseagreen;
 }
-
 
 
 
@@ -309,7 +397,11 @@ main {
 
 .box-rocker {
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.box-rocker img {
+    width: 60%;
 }
 
 .box-circle {
@@ -345,7 +437,6 @@ main {
 .btn-account button:hover {
     /*debug*/
 }
-
 
 
 /* FOOTER */
