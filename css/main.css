@@ -80,10 +80,11 @@ main {
 /* JUMBOTRON */
 
 #jumbo {
-    height: 600px;
+    min-height: 500px;
     background-image: url(../img/jumbo.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 50px;
     /*debug*/
     /*background-color: #fff2ee;*/
 }
@@ -161,9 +162,6 @@ form div:last-child {
     margin: 20px 0;
     font-size: 12px;
 }
-
-
-
 
 
 /* fine form */
