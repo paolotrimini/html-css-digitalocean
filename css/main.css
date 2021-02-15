@@ -1,7 +1,7 @@
 /* DEBUG */
 
 [class*="col-"] {
-   /* min-height:50px;
+    /*min-height:50px;
     background-color: darkorange;
     border: 1px solid #000;*/
 }
@@ -33,7 +33,7 @@
 body {
     font-family: 'Inter', sans-serif;
     /*debug*/
-    background-color: yellowgreen;
+    /*background-color: yellowgreen;*/
 }
 
 .contenitore {
@@ -45,7 +45,6 @@ body {
 
 .row {
     /*debug*/
-    /*text-align: center;*/
     /*background-color: forestgreen;*/
 }
 
@@ -54,7 +53,8 @@ body {
 header {
     height: 60px;
     width: 100%;
-    background-color: #f3f5f9;
+    /*background-color: #f3f5f9;*/
+    background-color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -63,8 +63,14 @@ header {
     /*background-color: #F5FFFA;*/
 }
 
-/* MENU NAVIGAZIONE */
 
+.logo-ocean img {
+    height: 25px;
+    margin-top: 15px;
+}
+
+
+/* MENU NAVIGAZIONE */
 
 
 #nav-menu li {
@@ -72,7 +78,6 @@ header {
     list-style-type: none;
     font-size: 11px;
     padding-right: 7px;
-    margin-top: 18px;
 }
 
 #nav-menu li a {
@@ -83,6 +88,7 @@ header {
 
 .nav-1, .nav-2 {
     display: inline-block;
+    margin-top: 17px;
 }
 
 .nav-1 {
@@ -102,9 +108,6 @@ header {
     border-radius: 5px;
     color: #0154ff;
 }
-
-
-
 
 
 /* MAIN */
