@@ -85,7 +85,6 @@ header {
     color: #5B6987;
 }
 
-
 .nav-1, .nav-2 {
     display: inline-block;
     margin-top: 17px;
@@ -103,13 +102,12 @@ header {
 }
 
 .nav-2 button {
-    border: 1px solid #0154ff;
+    border: 1px solid #0069ff;
     padding: 4px 7px;
     border-radius: 5px;
-    color: #0154ff;
+    color: #0069ff;
     background-color: white;
 }
-
 
 /* MAIN */
 
@@ -118,7 +116,6 @@ main {
     /*debug*/
     /*background-color: darkviolet;*/
 }
-
 
 /* JUMBOTRON */
 
@@ -145,7 +142,7 @@ main {
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* inizio form */
+/* inizio form jumbo */
 
 #box-form {
     background-color: white;
@@ -160,7 +157,7 @@ main {
 }
 
 .title-form h4:nth-child(2) {
-    color: #0154ff;
+    color: #0069ff;
 }
 
 form {
@@ -171,7 +168,7 @@ form {
     font-family: 'Inter', sans-serif;
     color: white;
     width: 100%;
-
+    background-color: #2485fd;
 }
 
 
@@ -190,7 +187,6 @@ form {
     margin-left: 20px;
 }
 
-
 .btn-signup a {
     text-decoration: none;
     margin-right: 11%;
@@ -198,20 +194,18 @@ form {
     font-weight: bold;
 }
 
-
-
 form div:last-child {
     text-align: center;
     margin: 20px 0;
     font-size: 12px;
 }
 
+form div:last-child a {
+    color: #0069ff;
+    text-decoration: underline;
+}
 
-/* fine form */
-
-
-
-
+/* fine form jumbo */
 
 /* PARTNERS */
 
@@ -231,7 +225,6 @@ form div:last-child {
     width: 100%;
 }
 
-
 /* DEPLOY */
 
 #box-deploy, .title-deploy {
@@ -242,6 +235,10 @@ form div:last-child {
     text-align: center;
     padding-bottom: 50px;
     padding-top: 40px;
+}
+
+.title-deploy p {
+    color: #5B6987;
 }
 
 .box-list {
@@ -256,7 +253,7 @@ form div:last-child {
 
 .box-list li a {
     text-decoration: none;
-    color: #5B6987; /* colore paragrafi*/
+    color: #5B6987; /* colore testi paragrafi */
 }
 
 .text-deploy {
@@ -291,8 +288,6 @@ form div:last-child {
     padding-bottom: 10px;
 }
 
-
-
 /* FEATURES */
 
 #box-features {
@@ -313,7 +308,7 @@ form div:last-child {
 }
 
 .text-features a {
-    color: #0154ff;
+    color: #0069ff;
 }
 
 .title-features h2 {
@@ -325,8 +320,11 @@ form div:last-child {
 /* TABELLA CUSTOMERS */
 
 #box-customers {
-    background-color: #0154ff;
+    background: rgb(0,0,139);
+    background: linear-gradient(360deg, rgba(0,0,139,1) 0%, rgba(0,65,180,0.9794117476091999) 100%, rgba(0,0,205,1) 100%);
     padding: 40px 0;
+    /*debug*/
+    /*background-color: #0154ff;*/
 }
 
 .title-customers h2 {
@@ -384,9 +382,6 @@ form div:last-child {
     color: lightseagreen;
 }
 
-
-
-
 /* TEAMS */
 
 #box-teams {
@@ -427,7 +422,7 @@ form div:last-child {
 }
 
 .text-bottom {
-    color: #0154ff;
+    color: #0069ff;
     padding-top: 15px;
 }
 
@@ -448,18 +443,22 @@ form div:last-child {
 .box-circle {
     padding: 20px 0;
 }
+
 .box-circle i {
     color: #0154ff;
     padding-right: 3px;
 }
 
-
 /* GET STARTED */
 
 #box-getstarted {
-    background-color: #0154ff;
+    background: rgb(0,0,139);
+    background: linear-gradient(360deg, rgba(0,0,139,1) 0%, rgba(0,65,180,0.9794117476091999) 100%, rgba(0,0,205,1) 100%);
     text-align: center;
     padding: 40px 0;
+    /*debug*/
+    /*background-color: #0154ff;*/
+    /*background-color: #00008B;*/
 }
 
 .title-getstarted {
@@ -475,10 +474,6 @@ form div:last-child {
     border: none;
 }
 
-.btn-account button:hover {
-    /*debug*/
-}
-
 
 /* FOOTER */
 
@@ -490,7 +485,6 @@ footer {
     background-color: #031b4e;
     color: #5B6987;
     padding: 30px 0;
-
 }
 
 .logo-footer {
@@ -499,13 +493,10 @@ footer {
 
 footer .copy {
     text-align: left;
-    /*font-size: calc(10px + 0.2vw);*/
-
 }
 
 .copy span {
     color: #5B6987;
-    /*font-size: calc(12px + 0.2vw);*/
 }
 
 .social-icons i{
@@ -560,6 +551,10 @@ footer .copy {
 
 
 @media all and (max-width:991px){
+
+    #nav-menu {
+        display: none;
+    }
 
 
 
