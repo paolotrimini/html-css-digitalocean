@@ -1,7 +1,7 @@
 /* DEBUG */
 
 [class*="col-"] {
-    /*min-height:50px;
+  /*  min-height:50px;
     background-color: darkorange;
     border: 1px solid #000;*/
 }
@@ -46,7 +46,7 @@ body {
 
 
 header {
-    /*height: 60px;*/
+    height: 50px;
     width: 100%;
     background-color: white;
     position: fixed;
@@ -63,10 +63,11 @@ header {
 }
 
 .navbar-default {
-    background-color: white;
-    padding-top: 10px;
+    background-color: transparent;
+    padding-top: 5px;
     font-size: 12px;
     border: none;
+   /* border: 1px solid red;*/
 }
 
 nav .btn-default{
@@ -75,15 +76,17 @@ nav .btn-default{
     border-color: #0069ff;
 }
 
-
-
+header .container-fluid {
+   padding-right: 0;
+   padding-left: 0;
+}
 
 /* MAIN */
 
 main {
-    /*margin-top: 60px;*/
     /*debug*/
     /*background-color: darkviolet;*/
+    margin-top: 60px;
 }
 
 /* JUMBOTRON */
