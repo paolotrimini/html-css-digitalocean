@@ -44,8 +44,9 @@ body {
 
 /* HEADER */
 
+
 header {
-    height: 60px;
+    /*height: 60px;*/
     width: 100%;
     background-color: white;
     position: fixed;
@@ -56,56 +57,31 @@ header {
     /*background-color: #F5FFFA;*/
 }
 
-
-.logo-ocean img {
-    height: 25px;
-    margin-top: 15px;
+#logo-ocean {
+    max-width: 130px;
+    vertical-align: middle;
 }
 
-
-/* MENU NAVIGAZIONE */
-
-
-#nav-menu li {
-    display: inline-block;
-    list-style-type: none;
-    font-size: 11px;
-    padding-right: 7px;
-}
-
-#nav-menu li a {
-    text-decoration: none;
-    color: #5B6987;
-}
-
-.nav-1, .nav-2 {
-    display: inline-block;
-    margin-top: 17px;
-}
-
-.nav-1 {
-    /*debug*/
-    /*background-color: red;*/
-}
-
-.nav-2 {
-    float: right;
-    /*debug*/
-    /*background-color: lightskyblue;*/
-}
-
-.nav-2 button {
-    border: 1px solid #0069ff;
-    padding: 4px 7px;
-    border-radius: 5px;
-    color: #0069ff;
+.navbar-default {
     background-color: white;
+    padding-top: 10px;
+    font-size: 12px;
+    border: none;
 }
+
+nav .btn-default{
+    font-size: 12px;
+    color: #0069ff;
+    border-color: #0069ff;
+}
+
+
+
 
 /* MAIN */
 
 main {
-    margin-top: 60px;
+    /*margin-top: 60px;*/
     /*debug*/
     /*background-color: darkviolet;*/
 }
@@ -546,20 +522,22 @@ footer .copy {
 
 
 
-
     }
 
 
 /* Small devices Tablets  */
 
+@media all and (min-width: 768px) and (max-width:991px){
+
+    .navbar-collapse.collapse {
+        display: none!important;
+
+    }
+
 
 
 
 @media all and (max-width:991px){
-
-    #nav-menu {
-        display: none;
-    }
 
 
 
@@ -577,5 +555,10 @@ footer .copy {
 /* Large devices Desktops */
 
 @media all and (min-width:1200px) {
+
+}
+   /* .navbar-header{
+        width: 100%;
+    }*/
 
 }
